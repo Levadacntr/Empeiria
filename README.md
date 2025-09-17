@@ -8,3 +8,5 @@ emped tx staking edit-validator \
   --gas=auto --gas-adjustment=1.5 --fees=10uempe \
   -y
 sudo journalctl -u emped -fo cat --no-hostname
+emped status | jq
+
