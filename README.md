@@ -7,3 +7,4 @@ emped tx staking edit-validator \
   --chain-id=empe-testnet-2 \
   --gas=auto --gas-adjustment=1.5 --fees=10uempe \
   -y
+sudo journalctl -u emped -fo cat --no-hostname
