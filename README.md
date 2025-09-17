@@ -12,4 +12,5 @@ emped status | jq
 sudo systemctl restart emped
 sudo systemctl status emped
 emped q staking validator $(emped keys show $WALLET_NAME --bech val -a) --output json | jq
+emped tx slashing unjail --from $WALLET_NAME --chain-id empe-testnet-2 --gas auto --gas-adjustment 1.5 --fees 30uempe -y
 
