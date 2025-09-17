@@ -10,4 +10,5 @@ emped tx staking edit-validator \
 sudo journalctl -u emped -fo cat --no-hostname
 emped status | jq
 sudo systemctl restart emped
+sudo systemctl status emped
 
