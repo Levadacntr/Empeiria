@@ -1,1 +1,2 @@
 # Empeiria
+screen -Rd empeiria
